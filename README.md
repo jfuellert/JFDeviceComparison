@@ -22,9 +22,9 @@ JFDeviceComparison is built from ARC and is ARC-only compatible.
 ##Usage
 ####Compare against current device
 ``` objective-c
-        [UIDevice isCurrentDeviceGreaterOrEqualToVersion:kUIDeviceVersion_iPhone6];
+[UIDevice isCurrentDeviceGreaterOrEqualToVersion:kUIDeviceVersion_iPhone3GS];
 ```
 ####Compare against a specified device
 ``` objective-c
-	[UIDevice isDeviceGreaterOrEqualToVersion:kUIDeviceVersion_iPhone3GS deviceName:kUIDeviceVersion_iPhone6];
+[UIDevice isDeviceGreaterOrEqualToVersion:kUIDeviceVersion_iPhone3GS deviceName:kUIDeviceVersion_iPhone6];
 ```
