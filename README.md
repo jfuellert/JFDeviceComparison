@@ -22,11 +22,9 @@ JFDeviceComparison is built from ARC and is ARC-only compatible.
 ##Usage
 ####Compare against current device
 ``` objective-c
-        [touchButton setBackgroundColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
-        [touchButton setBackgroundColor:[UIColor redColor] forState:UIControlStateHighlighted];
+        [UIDevice isCurrentDeviceGreaterOrEqualToVersion:kUIDeviceVersion_iPhone6];
 ```
-####Compare against specified device
+####Compare against a specified device
 ``` objective-c
-        [touchButton setBackgroundColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
-        [touchButton setBackgroundColor:[UIColor redColor] forState:UIControlStateHighlighted];
+	[UIDevice isDeviceGreaterOrEqualToVersion:kUIDeviceVersion_iPhone3GS deviceName:kUIDeviceVersion_iPhone6];
 ```
