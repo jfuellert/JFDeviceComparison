@@ -9,7 +9,7 @@
 #import "UIDevice+JFDeviceComparison.h"
 #import <sys/utsname.h> 
 
-NSString *const kUIDeviceVersion_iPhone                    = @"iPhone";
+NSString *const kUIDeviceVersion_iPhone                     = @"iPhone";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhoneGen1   = @"1,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone3G     = @"1,2";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone3GS    = @"2,1";
@@ -22,6 +22,7 @@ JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6Plus  = @"7,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6      = @"7,2";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6S     = @"8,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6SPlus = @"8,2";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPhoneSE     = @"8,4";
 
 NSString *const kUIDeviceVersion_iPod                   = @"iPod";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen1 = @"1,1";

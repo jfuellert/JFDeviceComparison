@@ -23,6 +23,7 @@ FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6Plus;
 FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6;
 FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6S;
 FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6SPlus;
+FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPhoneSE;
 
 FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen1;
 FOUNDATION_EXPORT JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen2;
