@@ -14,7 +14,7 @@ pod 'JFDeviceComparison'
 ##Support
 ####IOS
 Earliest tested and supported build and deployment target - iOS 7.0.  
-Latest tested and supported build and deployment target - iOS 9.1.
+Latest tested and supported build and deployment target - iOS 9.3.
 
 ##ARC Compatibility
 JFDeviceComparison is built from ARC and is ARC-only compatible. 
