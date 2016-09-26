@@ -23,21 +23,29 @@ JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6      = @"7,2";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6S     = @"8,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone6SPlus = @"8,2";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPhoneSE     = @"8,4";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone7      = @"9,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPhone7Plus  = @"9,2";
 
 NSString *const kUIDeviceVersion_iPod                   = @"iPod";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen1 = @"1,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen2 = @"2,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen3 = @"3,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen4 = @"4,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen5 = @"5,1";
 JFUIDeviceModelVersion *const kUIDeviceVersion_iPodGen6 = @"7,1";
 
-NSString *const kUIDeviceVersion_iPad                   = @"iPad";
-JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen1 = @"1,1";
-JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen2 = @"2,1";
-JFUIDeviceModelVersion *const kUIDeviceVersion_iPadMini = @"2,5";
-JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen3 = @"3,1";
-JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen4 = @"3,4";
-JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen5 = @"4,1";
+NSString *const kUIDeviceVersion_iPad                     = @"iPad";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen1   = @"1,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen2   = @"2,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadMini   = @"2,5";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen3   = @"3,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadGen4   = @"3,4";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadAir    = @"4,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadMini2  = @"4,4";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadMini3  = @"4,7";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadMini4  = @"5,1";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadAir2   = @"5,3";
+JFUIDeviceModelVersion *const kUIDeviceVersion_iPadPro    = @"6,7";
 
 @implementation UIDevice (JFDeviceComparison)
 
