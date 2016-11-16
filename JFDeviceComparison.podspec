@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JFDeviceComparison'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'JFDeviceComparison is a UIDevice category which is used to compare device versions.'
   s.description      = <<-DESC
                        JFDeviceComparison is a UIDevice category which is used to compare device versions. It uses the system machine information to determine and compare against device types.
